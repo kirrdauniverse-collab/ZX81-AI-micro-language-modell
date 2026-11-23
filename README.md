@@ -51,7 +51,8 @@ Kapcsolat: SAFIZX810GMAIL.COM (a ZX81-en inverz 0-val a @ helyett)
 ```
 
 ## Állapot
-**Fázis 1 – Koncepció** folyamatban.
+**Fázis 1 – Koncepció** lezárva.  
+**Fázis 2 – Tervezés** folyamatban (képernyő/UI elrendezés, memóriatérkép).
 
 ---
 *Ez a repository a GROK munkakönyvtárban fejlesztve.*

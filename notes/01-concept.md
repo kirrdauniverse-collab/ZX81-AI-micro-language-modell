@@ -18,7 +18,13 @@
 - Nagyon szűk vocab (cél: 200–400 token)
 - Generálás sebessége lassú lesz (Z80)
 
-## Következő lépések
-- Memóriatérkép részletes kidolgozása
+## Elfogadott döntések (2026-11-23)
+- Repo név: ZX81-AI-micro-language-modell ✓
+- Elsődleges nyelv: angol ✓
+- UI elválasztás: inverz karakterekkel a fejlécsorok, menük, chat üzenetek elkülönítésére ✓
+
+## Következő lépések (Fázis 2)
+- Részletes memóriatérkép (címekkel)
 - Tokenizáló alapelvek
-- Boot képernyő dizájn
+- .T81 sávstruktúra pontos leírása
+- Boot/splash és chat képernyő véglegesítése
