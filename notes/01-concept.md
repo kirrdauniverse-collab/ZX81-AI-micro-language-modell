@@ -26,8 +26,13 @@
 ## Haladás (2026-11-23)
 - Képernyő/UI elrendezés: kész (`docs/02-screen-layout-and-ui.md`)
 - Részletes memóriatérkép: kész (`docs/03-memory-map.md`)
+- .T81 sávstruktúra + RAMTOP technika: kész (`docs/04-t81-structure-and-ramtop.md`)
+
+## Elfogadott technikai döntés
+- BASIC loader a szalag elején → tájékoztatás → RAMTOP beállítás + NEW → manuális következő blokk indítás
+- Tartós adatok a védett (RAMTOP feletti) memóriában
 
 ## Következő lépések (Fázis 2 folytatás)
-- .T81 sávstruktúra pontos leírása
 - Tokenizáló alapelvek
-- Boot/splash véglegesítése
+- BASIC loader szövegeinek megírása
+- Memóriatérkép finomítása a RAMTOP-hoz

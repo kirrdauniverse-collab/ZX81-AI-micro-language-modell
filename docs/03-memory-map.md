@@ -1,5 +1,7 @@
 # Fázis 2 – Részletes memóriatérkép (16 KB ZX81)
 
+> **Fontos frissítés:** A tartós adatok és részben a tudásbázis a **RAMTOP feletti védett területre** kerül (lásd `docs/04-t81-structure-and-ramtop.md`). A címek ennek megfelelően finomítandók.
+
 ## Alapadatok
 - Teljes RAM: 16 KB (16384 bájt)
 - ROM: 8 KB (0000–1FFF)
@@ -7,6 +9,7 @@
 - Tipikus ZX81 rendszerterület: 4000h–407Dh körül (rendszerváltozók)
 - D_FILE: változó helyen, de általában a RAM eleje felé
 - Cél: minél több hely a modellnek, miközben a rendszer stabil marad
+- **RAMTOP technika:** A BASIC loader beállítja a RAMTOP-ot, majd NEW-t csinál → a felette lévő terület védett marad.
 
 ## Javasolt magas szintű felosztás
 
