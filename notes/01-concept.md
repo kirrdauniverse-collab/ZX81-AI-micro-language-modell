@@ -23,8 +23,11 @@
 - Elsődleges nyelv: angol ✓
 - UI elválasztás: inverz karakterekkel a fejlécsorok, menük, chat üzenetek elkülönítésére ✓
 
-## Következő lépések (Fázis 2)
-- Részletes memóriatérkép (címekkel)
-- Tokenizáló alapelvek
+## Haladás (2026-11-23)
+- Képernyő/UI elrendezés: kész (`docs/02-screen-layout-and-ui.md`)
+- Részletes memóriatérkép: kész (`docs/03-memory-map.md`)
+
+## Következő lépések (Fázis 2 folytatás)
 - .T81 sávstruktúra pontos leírása
-- Boot/splash és chat képernyő véglegesítése
+- Tokenizáló alapelvek
+- Boot/splash véglegesítése
