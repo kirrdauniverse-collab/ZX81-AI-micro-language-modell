@@ -32,7 +32,10 @@
 - BASIC loader a szalag elején → tájékoztatás → RAMTOP beállítás + NEW → manuális következő blokk indítás
 - Tartós adatok a védett (RAMTOP feletti) memóriában
 
+## Haladás (folytatás)
+- Tokenizáló és generálási alapelvek: kész (`docs/05-tokenizer-and-generation.md`)
+
 ## Következő lépések (Fázis 2 folytatás)
-- Tokenizáló alapelvek
 - BASIC loader szövegeinek megírása
 - Memóriatérkép finomítása a RAMTOP-hoz
+- Vocab első verzió összeállítása
