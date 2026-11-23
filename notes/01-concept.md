@@ -34,8 +34,10 @@
 
 ## Haladás (folytatás)
 - Tokenizáló és generálási alapelvek: kész (`docs/05-tokenizer-and-generation.md`)
+- BASIC loader első változat: kész (`src/loader-basic-v1.bas` + `docs/06-basic-loader-v1.md`)
+- Vocab első vázlat: kész (`knowledge/vocab-v1.txt`)
 
-## Következő lépések (Fázis 2 folytatás)
-- BASIC loader szövegeinek megírása
+## Következő lépések
 - Memóriatérkép finomítása a RAMTOP-hoz
-- Vocab első verzió összeállítása
+- Vocab bővítése + egyszerű bigram tábla kezdete
+- Persistent block struktúra pontosítása
