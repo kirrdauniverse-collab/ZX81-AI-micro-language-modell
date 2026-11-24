@@ -32,12 +32,16 @@
 - BASIC loader a szalag elején → tájékoztatás → RAMTOP beállítás + NEW → manuális következő blokk indítás
 - Tartós adatok a védett (RAMTOP feletti) memóriában
 
-## Haladás (folytatás)
-- Tokenizáló és generálási alapelvek: kész (`docs/05-tokenizer-and-generation.md`)
-- BASIC loader első változat: kész (`src/loader-basic-v1.bas` + `docs/06-basic-loader-v1.md`)
-- Vocab első vázlat: kész (`knowledge/vocab-v1.txt`)
+## Haladás (v0.1 – 2026-11-24)
+- Tokenizáló és generálási alapelvek: kész
+- BASIC loader első változat: kész
+- Vocab első vázlat: kész
+- Teljes verziódokumentáció: `docs/versions/v0.1-RELEASE-NOTES.md`
+- Minden kész dokumentum verziózva a `docs/versions/` alatt
 
-## Következő lépések
-- Memóriatérkép finomítása a RAMTOP-hoz
-- Vocab bővítése + egyszerű bigram tábla kezdete
-- Persistent block struktúra pontosítása
+## Következő lépések (v0.2 felé)
+- bas2p + make-t81 eszközök (egyetlen .T81 fájl az emulátorokhoz)
+- Loader továbbfejlesztése (user adatok bekérése)
+- Persistent block bináris elrendezés
+- Második blokk (egyszerű demo vagy motor stub)
+- Vocab bővítés + első bigram adatok

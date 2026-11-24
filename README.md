@@ -51,8 +51,14 @@ Kapcsolat: SAFIZX810GMAIL.COM (a ZX81-en inverz 0-val a @ helyett)
 ```
 
 ## Állapot
-**Fázis 1 – Koncepció** lezárva.  
-**Fázis 2 – Tervezés** folyamatban (képernyő/UI elrendezés, memóriatérkép).
+**v0.1** – Design release (2026-11-24)  
+- Teljes architektúra, memóriatérkép, UI szabályok, RAMTOP stratégia, tokenizáló koncepció  
+- Első BASIC loader forráskóddal  
+- Kezdeti vocab  
+- Részletes dokumentáció minden kész részhez  
+- Következő: működő .P / .T81 generálás + második blokk
+
+Lásd: `docs/versions/v0.1-RELEASE-NOTES.md`
 
 ---
 *Ez a repository a GROK munkakönyvtárban fejlesztve.*
