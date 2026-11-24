@@ -1,18 +1,26 @@
-# Pico AI v0.1 – Tryable Loader
+# Pico AI – Tryable files (v0.1 / v0.2 early)
 
-## Files
-- `pico-ai-loader-v0.1.p` – Standard ZX81 .P file (loadable in almost every emulator)
-- `pico-ai-loader-v0.1.p81` – Same with filename header
+## Loader (collects personal data)
+- **pico-ai-loader-v0.2.p**  ← ajánlott
+  - Bekéri: neved, nemed (M/F), dátum (DD/MM/YYYY), idő (HH:MM)
+  - Megerősítteti
+  - Beállítja a RAMTOP-ot 30000-re
+  - NEW-t csinál
+  - Utána manuálisan LOAD "" a következő blokknak
 
-## How to try
-1. Download the `.p` file
-2. Open in any ZX81 emulator (EightyOne, sz81, JtyOne online, etc.)
-3. Load the file
-4. Type `RUN` (or it may auto-run depending on emulator)
-5. Read the screens, press a key, then ENTER when asked
-6. The program sets RAMTOP and executes NEW
+## Demo chat (egyszerű tudás)
+- **pico-ai-demo-chat-v0.2.p**
+  - Egyszerű hardcoded válaszok
+  - Kipróbálható kérdések: hello, who are you, who made you, what is zx81
+  - BYE-val kilép
 
-This is the first stage loader only. The full multi-block .T81 with engine will come in the next version.
+## Használat
+1. Töltsd be a loader-t → add meg az adatokat → ENTER
+2. NEW után írd be: LOAD ""
+3. Töltsd be a demo-chat-et (külön fájlként egyelőre)
 
-## Source
-See `src/v0.1/loader-basic-v1.bas` and the documentation in `docs/versions/`.
+A teljes egyetlen .T81 (loader + tudás egy fájlban) a következő lépés.
+
+## Források
+- src/loader-basic-v0.2.bas
+- src/demo-chat-v0.2.bas
