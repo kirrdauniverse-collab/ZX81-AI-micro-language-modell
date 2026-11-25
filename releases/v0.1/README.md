@@ -1,26 +1,24 @@
-# Pico AI – Tryable files (v0.1 / v0.2 early)
+# Pico AI v0.2 – Tryable multi-block tape
 
-## Loader (collects personal data)
-- **pico-ai-loader-v0.2.p**  ← ajánlott
-  - Bekéri: neved, nemed (M/F), dátum (DD/MM/YYYY), idő (HH:MM)
-  - Megerősítteti
-  - Beállítja a RAMTOP-ot 30000-re
-  - NEW-t csinál
-  - Utána manuálisan LOAD "" a következő blokknak
+## Fő fájl (egyetlen .T81 – ezt használd!)
+**pico-ai-v0.2.t81**
 
-## Demo chat (egyszerű tudás)
-- **pico-ai-demo-chat-v0.2.p**
-  - Egyszerű hardcoded válaszok
-  - Kipróbálható kérdések: hello, who are you, who made you, what is zx81
-  - BYE-val kilép
+Tartalmazza:
+1. **Loader** (bekéri név, nem, dátum, idő → RAMTOP + NEW)
+2. **Demo Chat** (egyszerű tudásos válaszok)
 
-## Használat
-1. Töltsd be a loader-t → add meg az adatokat → ENTER
-2. NEW után írd be: LOAD ""
-3. Töltsd be a demo-chat-et (külön fájlként egyelőre)
+### Használat EightyOne / kompatibilis emulátorban
+1. Töltsd be a `pico-ai-v0.2.t81` fájlt
+2. Az első program (loader) elindul
+3. Add meg az adatokat, erősítsd meg, ENTER
+4. NEW után írd be: `LOAD ""`
+5. A második blokk (Demo Chat) betöltődik
+6. Próbáld ki a kérdéseket: hello, who are you, who made you, what is zx81
+7. BYE-val kilép
 
-A teljes egyetlen .T81 (loader + tudás egy fájlban) a következő lépés.
+### Egyedi .P fájlok (ha külön kell)
+- pico-ai-loader-v0.2.p
+- pico-ai-demo-chat-v0.2.p
 
-## Források
-- src/loader-basic-v0.2.bas
-- src/demo-chat-v0.2.bas
+## Letöltés
+A fájlok a GitHub releases/v0.1 mappájában vannak.
