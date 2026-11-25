@@ -1,20 +1,17 @@
-# Pico AI v0.3 – Improved tryable multi-block
+# Pico AI - Tryable T81
 
-## Fo fajl
-**pico-ai-v0.3.t81**
+## Latest
+**pico-ai-v0.4.t81**
 
-### Valtozasok v0.3-ban
-- Loader: sokkal elnezoobb a datum/ido bevitelre (barmilyen formatum)
-- Loader: H betuvel help
-- Demo: a te szoveged is megjelenik (YOU: ...)
-- Demo: jobb kepernyokezeles, kevesebb teleiras
-- Demo: HELP parancs + tobb kerdes
+Contains:
+1. Loader (asks name, gender, date, time - tolerant input)
+2. Demo chat
 
-### Hasznalat
-1. Toltsd be a pico-ai-v0.3.t81-et
-2. Loader: add meg az adatokat (nem finnyas)
-3. NEW utan: LOAD ""
-4. Demo chat: proba kerdesek vagy HELP / BYE
+### How to use
+1. Load the .t81 in your emulator
+2. Answer the questions in the loader
+3. After NEW type: LOAD ""
+4. Chat starts. Try: hello / who are you / who made you / what is zx81 / HELP / BYE
 
-### Letoltes
-https://github.com/kirrdauniverse-collab/ZX81-AI-micro-language-modell/raw/main/releases/v0.1/pico-ai-v0.3.t81
+Direct download:
+https://github.com/kirrdauniverse-collab/ZX81-AI-micro-language-modell/raw/main/releases/v0.1/pico-ai-v0.4.t81
