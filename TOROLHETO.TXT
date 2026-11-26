@@ -1,0 +1,5 @@
+Ezt a repót már nem használjuk. A munka átkerült ide:
+
+https://github.com/kirrdauniverse-collab/ZX81-AI-micro-language-model/tree/main/GROK1
+
+TÖRÖLHETŐ.
